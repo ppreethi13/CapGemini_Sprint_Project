@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="ecom.swaglabs.login.TCP1">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="TC_LOGIN_01"/>
+          <include name="TC_LOGIN_03"/>
+          <include name="launchBrowser"/>
+          <include name="TC_LOGIN_05"/>
+          <include name="TC_LOGIN_08"/>
+        </methods>
+      </class> <!-- ecom.swaglabs.login.TCP1 -->
+      <class name="ecom.swaglabs.login.TCN2">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="TC_LOGIN_09"/>
+        </methods>
+      </class> <!-- ecom.swaglabs.login.TCN2 -->
+      <class name="ecom.swaglabs.purchase.TCF1">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="Purchase_Fun_002"/>
+          <include name="launchBrowser"/>
+          <include name="Purchase_Fun_001"/>
+        </methods>
+      </class> <!-- ecom.swaglabs.purchase.TCF1 -->
+      <class name="ecom.swaglabs.purchase.TCN5">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="Purchase_Neg_001"/>
+          <include name="launchBrowser"/>
+          <include name="Purchase_Neg_002"/>
+          <include name="Purchase_Neg_003"/>
+        </methods>
+      </class> <!-- ecom.swaglabs.purchase.TCN5 -->
+      <class name="ecom.swaglabs.purchase.TCS2">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="Purchase_Smoke_001"/>
+          <include name="Purchase_Smoke_002"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- ecom.swaglabs.purchase.TCS2 -->
+      <class name="ecom.swaglabs.checkout.TCP">
+        <methods>
+          <include name="Purchase_Fun_001"/>
+          <include name="closeBrowser"/>
+          <include name="Purchase_Smoke_001"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- ecom.swaglabs.checkout.TCP -->
+      <class name="ecom.swaglabs.purchase.TCSS4">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="Purchase_Sys_002"/>
+          <include name="Purchase_Sys_001"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- ecom.swaglabs.purchase.TCSS4 -->
+      <class name="ecom.swaglabs.purchase.TCI3">
+        <methods>
+          <include name="Purchase_Int_002"/>
+          <include name="closeBrowser"/>
+          <include name="Purchase_Int_001"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- ecom.swaglabs.purchase.TCI3 -->
+      <class name="ecom.swaglabs.productcatalog.TCP">
+        <methods>
+          <include name="TC_PC_07"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="TC_PC_01"/>
+        </methods>
+      </class> <!-- ecom.swaglabs.productcatalog.TCP -->
+      <class name="ecom.swaglabs.checkout.TCNC">
+        <methods>
+          <include name="Purchase_Neg_001"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- ecom.swaglabs.checkout.TCNC -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

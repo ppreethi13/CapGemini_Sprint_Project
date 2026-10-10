@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [IntegrationTestSuite]">
+  <test thread-count="5" name="IntegrationTests(failed)">
+    <groups>
+      <run>
+        <include name="integration"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="ecom.swaglabs.purchase.TCI3">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="Purchase_Int_002"/>
+          <include name="Purchase_Int_001"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- ecom.swaglabs.purchase.TCI3 -->
+      <class name="ecom.swaglabs.login.TCP1">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="TC_LOGIN_03"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- ecom.swaglabs.login.TCP1 -->
+    </classes>
+  </test> <!-- IntegrationTests(failed) -->
+</suite> <!-- Failed suite [IntegrationTestSuite] -->

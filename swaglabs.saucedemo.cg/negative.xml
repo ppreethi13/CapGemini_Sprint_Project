@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="NegativeTestSuite">
+
+    <parameter name="browser" value="chrome"/>
+
+    <test name="NegativeTests">
+
+        <groups>
+            <run>
+                <include name="negative"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="ecom.swaglabs.login.TCN2"/>
+            <class name="ecom.swaglabs.purchase.TCN5"/>
+            <class name="ecom.swaglabs.checkout.TCNC"/>
+        </classes>
+
+    </test>
+
+</suite>

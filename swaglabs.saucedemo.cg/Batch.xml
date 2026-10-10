@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+    <classes>
+      <class name="ecom.swaglabs.checkout.TCP"/>
+      <class name="ecom.swaglabs.checkout.TCNC"/>
+      <class name="ecom.swaglabs.productcatalog.TCP"/>
+      <class name="ecom.swaglabs.purchase.TCS2"/>
+      <class name="ecom.swaglabs.purchase.TCSS4"/>
+      <class name="ecom.swaglabs.purchase.TCI3"/>
+      <class name="ecom.swaglabs.login.TCN2"/>
+      <class name="ecom.swaglabs.purchase.TCF1"/>
+      <class name="ecom.swaglabs.login.TCP1"/>
+      <class name="ecom.swaglabs.purchase.TCN5"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

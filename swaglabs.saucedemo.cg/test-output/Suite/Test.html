@@ -1,0 +1,332 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Oct 10 14:17:47 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>72 seconds (72194 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ecom.swaglabs.productcatalog.TCP.TC_PC_01()'><b>TC_PC_01</b><br>Test class: ecom.swaglabs.productcatalog.TCP<br/>
+<a href="#Output-790432700" onClick='toggleBox("Output-790432700", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-790432700" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-790432700">
+TC_PC_01 --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.productcatalog.TCP@15de0b3c</td></tr>
+<tr>
+<td title='ecom.swaglabs.login.TCP1.TC_LOGIN_01()'><b>TC_LOGIN_01</b><br>Test class: ecom.swaglabs.login.TCP1<br/>
+<a href="#Output-1821989981" onClick='toggleBox("Output-1821989981", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1821989981" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1821989981">
+TC_LOGIN_01 --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.login.TCP1@3bf7ca37</td></tr>
+<tr>
+<td title='ecom.swaglabs.purchase.TCI3.Purchase_Int_001()'><b>Purchase_Int_001</b><br>Test class: ecom.swaglabs.purchase.TCI3<br/>
+<a href="#Output-1329504187" onClick='toggleBox("Output-1329504187", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1329504187" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1329504187">
+PURCHASE_INT_001 --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.purchase.TCI3@198b6731</td></tr>
+<tr>
+<td title='ecom.swaglabs.checkout.TCP.Purchase_Smoke_001()'><b>Purchase_Smoke_001</b><br>Test class: ecom.swaglabs.checkout.TCP<br/>
+<a href="#Output-1088818894" onClick='toggleBox("Output-1088818894", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1088818894" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1088818894">
+PURCHASE_SMOKE_001 --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.checkout.TCP@40a4337a</td></tr>
+<tr>
+<td title='ecom.swaglabs.productcatalog.TCP.TC_PC_07()'><b>TC_PC_07</b><br>Test class: ecom.swaglabs.productcatalog.TCP<br/>
+<a href="#Output-1559434619" onClick='toggleBox("Output-1559434619", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1559434619" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1559434619">
+TC_PC_07 --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.productcatalog.TCP@15de0b3c</td></tr>
+<tr>
+<td title='ecom.swaglabs.checkout.TCNC.Purchase_Neg_001()'><b>Purchase_Neg_001</b><br>Test class: ecom.swaglabs.checkout.TCNC<br/>
+<a href="#Output-170778406" onClick='toggleBox("Output-170778406", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-170778406" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-170778406">
+PURCHASE_NEG_001 --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.checkout.TCNC@1a677343</td></tr>
+<tr>
+<td title='ecom.swaglabs.purchase.TCS2.Purchase_Smoke_001()'><b>Purchase_Smoke_001</b><br>Test class: ecom.swaglabs.purchase.TCS2<br/>
+<a href="#Output-1272284318" onClick='toggleBox("Output-1272284318", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1272284318" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1272284318">
+PURCHASE_SMOKE_001 --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.purchase.TCS2@489115ef</td></tr>
+<tr>
+<td title='ecom.swaglabs.checkout.TCP.Purchase_Fun_001()'><b>Purchase_Fun_001</b><br>Test class: ecom.swaglabs.checkout.TCP<br/>
+<a href="#Output-1454136448" onClick='toggleBox("Output-1454136448", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1454136448" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1454136448">
+PURCHASE_FUN_001 --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>ecom.swaglabs.checkout.TCP@40a4337a</td></tr>
+<tr>
+<td title='ecom.swaglabs.login.TCN2.TC_LOGIN_09()'><b>TC_LOGIN_09</b><br>Test class: ecom.swaglabs.login.TCN2<br/>
+<a href="#Output-1257058590" onClick='toggleBox("Output-1257058590", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1257058590" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1257058590">
+TC_LOGIN_09 --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.login.TCN2@7c6908d7</td></tr>
+<tr>
+<td title='ecom.swaglabs.purchase.TCI3.Purchase_Int_002()'><b>Purchase_Int_002</b><br>Test class: ecom.swaglabs.purchase.TCI3<br/>
+<a href="#Output-167670282" onClick='toggleBox("Output-167670282", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-167670282" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-167670282">
+PURCHASE_INT_002 --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.purchase.TCI3@198b6731</td></tr>
+<tr>
+<td title='ecom.swaglabs.purchase.TCN5.Purchase_Neg_001()'><b>Purchase_Neg_001</b><br>Test class: ecom.swaglabs.purchase.TCN5<br/>
+<a href="#Output-492166433" onClick='toggleBox("Output-492166433", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-492166433" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-492166433">
+PURCHASE_NEG_001 --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.purchase.TCN5@79079097</td></tr>
+<tr>
+<td title='ecom.swaglabs.purchase.TCF1.Purchase_Fun_001()'><b>Purchase_Fun_001</b><br>Test class: ecom.swaglabs.purchase.TCF1<br/>
+<a href="#Output-1466148437" onClick='toggleBox("Output-1466148437", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1466148437" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1466148437">
+PURCHASE_FUN_001 --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.purchase.TCF1@3c9754d8</td></tr>
+<tr>
+<td title='ecom.swaglabs.purchase.TCN5.Purchase_Neg_003()'><b>Purchase_Neg_003</b><br>Test class: ecom.swaglabs.purchase.TCN5<br/>
+<a href="#Output-1710607075" onClick='toggleBox("Output-1710607075", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1710607075" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1710607075">
+PURCHASE_NEG_003 --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.purchase.TCN5@79079097</td></tr>
+<tr>
+<td title='ecom.swaglabs.login.TCP1.TC_LOGIN_03()'><b>TC_LOGIN_03</b><br>Test class: ecom.swaglabs.login.TCP1<br/>
+<a href="#Output-1231875515" onClick='toggleBox("Output-1231875515", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1231875515" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1231875515">
+TC_LOGIN_03 --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>ecom.swaglabs.login.TCP1@3bf7ca37</td></tr>
+<tr>
+<td title='ecom.swaglabs.purchase.TCF1.Purchase_Fun_002()'><b>Purchase_Fun_002</b><br>Test class: ecom.swaglabs.purchase.TCF1<br/>
+<a href="#Output-709379856" onClick='toggleBox("Output-709379856", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-709379856" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-709379856">
+PURCHASE_FUN_002 --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.purchase.TCF1@3c9754d8</td></tr>
+<tr>
+<td title='ecom.swaglabs.purchase.TCN5.Purchase_Neg_002()'><b>Purchase_Neg_002</b><br>Test class: ecom.swaglabs.purchase.TCN5<br/>
+<a href="#Output-1697330995" onClick='toggleBox("Output-1697330995", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1697330995" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1697330995">
+PURCHASE_NEG_002 --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.purchase.TCN5@79079097</td></tr>
+<tr>
+<td title='ecom.swaglabs.purchase.TCSS4.Purchase_Sys_002()'><b>Purchase_Sys_002</b><br>Test class: ecom.swaglabs.purchase.TCSS4<br/>
+<a href="#Output-1487424018" onClick='toggleBox("Output-1487424018", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1487424018" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1487424018">
+PURCHASE_SYS_002 --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.purchase.TCSS4@3857f613</td></tr>
+<tr>
+<td title='ecom.swaglabs.login.TCP1.TC_LOGIN_08()'><b>TC_LOGIN_08</b><br>Test class: ecom.swaglabs.login.TCP1<br/>
+<a href="#Output-1531532466" onClick='toggleBox("Output-1531532466", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1531532466" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1531532466">
+TC_LOGIN_08 --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.login.TCP1@3bf7ca37</td></tr>
+<tr>
+<td title='ecom.swaglabs.purchase.TCS2.Purchase_Smoke_002()'><b>Purchase_Smoke_002</b><br>Test class: ecom.swaglabs.purchase.TCS2<br/>
+<a href="#Output-1065443868" onClick='toggleBox("Output-1065443868", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1065443868" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1065443868">
+PURCHASE_SMOKE_002 --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.purchase.TCS2@489115ef</td></tr>
+<tr>
+<td title='ecom.swaglabs.purchase.TCSS4.Purchase_Sys_001()'><b>Purchase_Sys_001</b><br>Test class: ecom.swaglabs.purchase.TCSS4<br/>
+<a href="#Output-416285645" onClick='toggleBox("Output-416285645", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-416285645" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-416285645">
+PURCHASE_SYS_001 --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.purchase.TCSS4@3857f613</td></tr>
+<tr>
+<td title='ecom.swaglabs.login.TCP1.TC_LOGIN_05()'><b>TC_LOGIN_05</b><br>Test class: ecom.swaglabs.login.TCP1<br/>
+<a href="#Output-2116797172" onClick='toggleBox("Output-2116797172", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2116797172" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2116797172">
+TC_LOGIN_05 --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.login.TCP1@3bf7ca37</td></tr>
+</table><p>
+</body>
+</html>

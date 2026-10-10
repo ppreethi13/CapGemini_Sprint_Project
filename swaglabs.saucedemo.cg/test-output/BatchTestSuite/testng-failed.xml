@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BatchTestSuite]">
+  <test thread-count="5" name="AllModuleTests(failed)">
+    <classes>
+      <class name="ecom.swaglabs.purchase.TCS2">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="Purchase_Smoke_001"/>
+        </methods>
+      </class> <!-- ecom.swaglabs.purchase.TCS2 -->
+    </classes>
+  </test> <!-- AllModuleTests(failed) -->
+</suite> <!-- Failed suite [BatchTestSuite] -->

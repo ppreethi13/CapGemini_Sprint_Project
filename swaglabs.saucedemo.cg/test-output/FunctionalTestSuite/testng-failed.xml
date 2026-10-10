@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FunctionalTestSuite]">
+  <test thread-count="5" name="FunctionalTests(failed)">
+    <groups>
+      <run>
+        <include name="functional"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="ecom.swaglabs.purchase.TCF1">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="Purchase_Fun_002"/>
+          <include name="launchBrowser"/>
+          <include name="Purchase_Fun_001"/>
+        </methods>
+      </class> <!-- ecom.swaglabs.purchase.TCF1 -->
+    </classes>
+  </test> <!-- FunctionalTests(failed) -->
+</suite> <!-- Failed suite [FunctionalTestSuite] -->

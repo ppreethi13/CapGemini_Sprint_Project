@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="ParallelTestSuite" parallel="tests" thread-count="3">
+
+    <test name="LoginTests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="ecom.swaglabs.login.TCP1"/>
+            <class name="ecom.swaglabs.login.TCN2"/>
+        </classes>
+    </test>
+
+    <test name="ProductCatalogTests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="ecom.swaglabs.productcatalog.TCP"/>
+        </classes>
+    </test>
+
+    <test name="PurchaseTests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="ecom.swaglabs.purchase.TCF1"/>
+            <class name="ecom.swaglabs.purchase.TCS2"/>
+            <class name="ecom.swaglabs.purchase.TCI3"/>
+            <class name="ecom.swaglabs.purchase.TCSS4"/>
+            <class name="ecom.swaglabs.purchase.TCN5"/>
+        </classes>
+    </test>
+
+    <test name="CheckoutTests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="ecom.swaglabs.checkout.TCP"/>
+            <class name="ecom.swaglabs.checkout.TCNC"/>
+        </classes>
+    </test>
+
+</suite>
